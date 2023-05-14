@@ -832,7 +832,7 @@ p {
 }
 
 .dish-info ul li:last-child {
-    text-align: right;
+    text-align: center;
     border-left: 2px solid rgb(204 204 204 / 30%);
 }
 
@@ -861,34 +861,7 @@ p {
     padding-bottom: 30px;
 }
 
-.dist-bottom-row ul li {
-    display: flex;
-    align-items: center;
-}
 
-.dist-bottom-row ul li b {
-    font-size: 30px;
-}
-
-.dish-add-btn {
-    width: 40px;
-    height: 40px;
-    border: none;
-    border-radius: 10px;
-    color: #ffffff;
-    transition: 0.3s;
-    background: linear-gradient(145deg, #ffc954, #ffbc00);
-    box-shadow: inset 4px 4px 8px #d6a029, inset -4px -4px 8px #ffd837;
-}
-
-.dish-add-btn i {
-    color: #ffffff;
-    font-size: 22px;
-}
-
-.dish-add-btn:hover {
-    background: linear-gradient(145deg, #e3a92b, #ffc933);
-}
 
 /* ************ */
 
